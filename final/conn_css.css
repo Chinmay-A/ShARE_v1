@@ -88,7 +88,7 @@ html{
 } */
 
 #footer{
-    height: 91px;
+    height: 91px !important;
     background-color: #00C984;
     color: white;
     margin: 0px;
@@ -109,6 +109,8 @@ html{
     text-decoration: none;
     color: black;
     filter: brightness(10%);
+    margin-right: 3px !important;
+    margin-left: 3px !important;
 }
 
 #footer-link:hover{
